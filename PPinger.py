@@ -1,7 +1,3 @@
-# -*- coding: utf-8 -*-
-
-# Module author: @xadjIlut
-
 from datetime import datetime
 from statistics import mean, median, stdev
 
