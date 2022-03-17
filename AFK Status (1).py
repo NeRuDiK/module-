@@ -30,7 +30,7 @@ class AFKMod(loader.Module):
 		if utils.get_args_raw(message):
 			self._db.set(__name__, "afk", utils.get_args_raw(message))
 		else:
-			self._db.set(__name__, "afk", Нет причины)
+			self._db.set(__name__, "afk", True)
 		self._db.set(__name__, "gone", time.time())
 		await self.allmodules.log(".afk", data=utils.get_args_raw(message) or None)
 		await utils.answer(message, self.strings("gone", message))
