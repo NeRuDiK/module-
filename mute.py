@@ -3,9 +3,9 @@ from .. import loader, utils
 
 
 @loader.tds
-class MuteMod(loader.Module):
+class MeetingMod(loader.Module):
     """Мут."""
-    strings = {'name': 'Mute'}
+    strings = {'name': 'Meeting'}
 
     async def client_ready(self, client, db):
         self.db = db
