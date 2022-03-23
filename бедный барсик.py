@@ -1,7 +1,7 @@
 from .. import loader
 
-class аfkMod(loader.Module):
-	strings = {"name": "аfk"}
+class BarsikMod(loader.Module):
+	strings = {"name": "Barsik"}
 	
 	async def client_ready(self, client, db):
 		self.client = client
