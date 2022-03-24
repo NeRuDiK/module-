@@ -1,3 +1,4 @@
+# tg: @little_senpai
 from .. import loader
 
 class BarsikMod(loader.Module):
