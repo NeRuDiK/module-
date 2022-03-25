@@ -1,3 +1,4 @@
+# tg: @little_senpai
 import time
 from datetime import datetime
 
