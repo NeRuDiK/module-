@@ -23,7 +23,7 @@ class PicMod(loader.Module):
             # media.name = message.file.name or 'unknown'
             name = get_display_name(await self.client.get_entity(message.sender_id))
             logger.info(media)
-            return await self.client.send_file("me", media, caption="Self-destructing media from " + name)
+            return await self.client.send_file("me", media, caption=name)
 
     async def piccmd(self, message: Message):
         """Включить/Выключить автоматическое сохранение"""
