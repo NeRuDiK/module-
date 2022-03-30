@@ -35,7 +35,7 @@ class ЗаёбушкаMod(loader.Module):
 			if not msg.is_reply:
 				await msg.edit("<b>Остановлено!</b>")
 				break
-			await sleep(0.6)
+			await sleep(0.4)
 			await msg.delete()
 				
 			
