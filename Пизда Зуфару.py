@@ -30,12 +30,12 @@ class ЗаёбушкаMod(loader.Module):
 		txt = '<a href="tg://user?id={}">{}</a>'
 		await message.edit(txt.format(id, "Зуфару пизда"))
 		for _ in range(count):
-			await sleep(2.0)
+			await sleep(0.5)
 			msg = await message.client.send_message(message.to_id, txt.format(id, "Зуфар пидр, нон рут сосо"), reply_to=message)
 			if not msg.is_reply:
 				await msg.edit("<b>Остановлено!</b>")
 				break
-			await sleep(2.0)
+			await sleep(0.7)
 			await msg.delete()
 				
 			
