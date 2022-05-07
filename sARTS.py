@@ -1,3 +1,4 @@
+#tg: @little_senpai
 import random
 import logging
 from .. import loader, utils
