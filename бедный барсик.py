@@ -10,7 +10,7 @@ class BarsikMod(loader.Module):
 	async def watcher(self, message):
 		me = (await message.client.get_me())
 		client1 = self.client
-		result = "Бедный Бусик"
+		result = "Бедный Барсик"
 		if message.sender_id != me.id:
 			if message.text.lower() == "бб":
 				await message.respond(result)
